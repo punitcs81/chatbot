@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/anvaya-punit/PycharmProjects/rasa-chatbot/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/anvaya-punit/PycharmProjects/rasa-chatbot/models/current/nlu/intent_classifier_tensorflow_embedding.ckpt"

@@ -1,0 +1,60 @@
+intents:
+- greet
+- goodbye
+- thanks
+- deny
+- joke
+- name
+- sale
+- restaurant_search
+
+
+entities:
+- name
+- table
+- attribute
+- select_function
+- location
+- cuisine
+
+
+
+slots:
+  name:
+    type: text
+  table:
+    type: text
+  cuisine:
+    initial_value: null
+    type: text
+  location:
+    initial_value: null
+    type: text
+
+
+actions:
+- utter_name
+- utter_thanks
+- utter_greet
+- utter_goodbye
+- action_joke
+- action_sale
+- action_check_restaurants
+
+
+templates:
+  utter_name:
+  - text: "Hey there! Tell me your name."
+
+  utter_greet:
+  - text: "Nice to you meet you {name}. How can I help?"
+
+  utter_goodbye:
+  - text: "Talk to you later!"
+  
+  utter_thanks:
+  - text: "My pleasure."
+
+  utter_sale:
+  - text: "am in you {table.txt} name"
+  

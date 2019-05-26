@@ -5,12 +5,23 @@
     "intent_greet",
     "intent_joke",
     "intent_name",
+    "intent_restaurant_search",
     "intent_sale",
     "intent_thanks",
     "entity_name",
     "entity_table",
     "entity_attribute",
     "entity_select_function",
+    "entity_location",
+    "entity_Cuisines",
+    "entity_Restaurant_Name",
+    "entity_Country",
+    "entity_City",
+    "entity_Average_Cost_for_two",
+    "entity_Aggregate_rating",
+    "entity_Votes",
+    "slot_Cuisines_0",
+    "slot_location_0",
     "slot_name_0",
     "slot_table_0",
     "prev_action_listen",
@@ -25,6 +36,7 @@
     "prev_utter_greet",
     "prev_utter_goodbye",
     "prev_action_joke",
-    "prev_action_sale"
+    "prev_action_sale",
+    "prev_action_check_restaurants"
   ]
 }

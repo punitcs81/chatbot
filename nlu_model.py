@@ -22,7 +22,7 @@ def train(data, config_file, model_dir):
 
 def run():
     interpreter = Interpreter.load('./models/nlu/default/chat')
-    data = interpreter.parse('anywhere in the west')
+    data = interpreter.parse('wants to eat indian in bangalore')
     print(data)
 
     params = {}
@@ -57,7 +57,7 @@ def run():
     print(responses[index].format(res))
 
 if __name__ == '__main__':
-    # train('./data/nlu_data.md', './config/config.yml', './models/nlu')
+    train('./data/nlu_data.md', './config/config.yml', './models/nlu')
     run()
 
 # rasa-nlu-trainer -v <path to the training data file>

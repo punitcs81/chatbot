@@ -15,7 +15,13 @@ entities:
 - attribute
 - select_function
 - location
-- cuisine
+- Cuisines
+- Restaurant_Name
+- Country
+- City
+- Average_Cost_for_two
+- Aggregate_rating
+- Votes
 
 
 
@@ -24,7 +30,7 @@ slots:
     type: text
   table:
     type: text
-  cuisine:
+  Cuisines:
     initial_value: null
     type: text
   location:

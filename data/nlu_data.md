@@ -123,18 +123,10 @@
 - I need to hear a joke
 
 ## intent:restaurant_search
-- i'm looking for a place to eat
-- I want to grab lunch
-- I am searching for a dinner spot
-- i'm looking for a place in the [north](location) of town
-- show me [chinese](cuisine) restaurants
-- show me a [mexican](cuisine) place in the [centre](location)
-- i am looking for an [indian](cuisine) spot
-- search for restaurants
-- anywhere in the [west](location)
-- anywhere near [18328](location)
-- I am looking for [asian fusion](cuisine) food
-- I am looking a restaurant in [29432](location)
+- tell me a restaurant in [bangalore](City)
+- where i can go for diner in [bangalore](City)
+- wants to eat [indian](Cuisines) in [bangalore](City)
+- where i can try [indian](Cuisines)
 
 
 ## intent: order

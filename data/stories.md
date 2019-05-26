@@ -34,3 +34,7 @@
 ## story_sale
 * sale
  - action_sale
+ 
+## story rest
+* restaurant_search
+ - action_check_restaurants

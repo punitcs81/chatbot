@@ -2,1460 +2,1410 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "Bye", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "Bye"
+      },
       {
-        "text": "Goodbye", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
       {
-        "text": "See you later", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "See you later"
+      },
       {
-        "text": "Bye bot", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
       {
-        "text": "Goodbye friend", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
       {
-        "text": "bye", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "bye"
+      },
       {
-        "text": "bye for now", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
       {
-        "text": "catch you later", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
       {
-        "text": "gotta go", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
       {
-        "text": "See you", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "See you"
+      },
       {
-        "text": "goodnight", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
       {
-        "text": "have a nice day", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
       {
-        "text": "i'm off", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
       {
-        "text": "see you later alligator", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
       {
-        "text": "we'll speak soon", 
-        "intent": "goodbye"
-      }, 
+        "intent": "goodbye",
+        "text": "we'll speak soon"
+      },
       {
-        "text": "Hi", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "Hi"
+      },
       {
-        "text": "Hey", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "Hey"
+      },
       {
-        "text": "Hi bot", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "Hi bot"
+      },
       {
-        "text": "Hey bot", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "Hey bot"
+      },
       {
-        "text": "Hello", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "Hello"
+      },
       {
-        "text": "Good morning", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "Good morning"
+      },
       {
-        "text": "hi again", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "hi again"
+      },
       {
-        "text": "hi folks", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "hi folks"
+      },
       {
-        "text": "hi Mister", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "hi Mister"
+      },
       {
-        "text": "hi pal!", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "hi pal!"
+      },
       {
-        "text": "hi there", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "hi there"
+      },
       {
-        "text": "greetings", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "greetings"
+      },
       {
-        "text": "hello everybody", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "hello everybody"
+      },
       {
-        "text": "hello is anybody there", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
       {
-        "text": "hello robot", 
-        "intent": "greet"
-      }, 
+        "intent": "greet",
+        "text": "hello robot"
+      },
       {
-        "text": "Thanks", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "Thanks"
+      },
       {
-        "text": "Thank you", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "Thank you"
+      },
       {
-        "text": "Thank you so much", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
       {
-        "text": "Thanks bot", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "Thanks bot"
+      },
       {
-        "text": "Thanks for that", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "Thanks for that"
+      },
       {
-        "text": "cheers", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "cheers"
+      },
       {
-        "text": "cheers bro", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "cheers bro"
+      },
       {
-        "text": "ok thanks!", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "ok thanks!"
+      },
       {
-        "text": "perfect thank you", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
       {
-        "text": "thanks a bunch for everything", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "thanks a bunch for everything"
+      },
       {
-        "text": "thanks for the help", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "thanks for the help"
+      },
       {
-        "text": "thanks a lot", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
       {
-        "text": "amazing, thanks", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "amazing, thanks"
+      },
       {
-        "text": "cool, thanks", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "cool, thanks"
+      },
       {
-        "text": "cool thank you", 
-        "intent": "thanks"
-      }, 
+        "intent": "thanks",
+        "text": "cool thank you"
+      },
       {
-        "text": "yes", 
-        "intent": "affirm"
-      }, 
+        "intent": "affirm",
+        "text": "yes"
+      },
       {
-        "text": "yes sure", 
-        "intent": "affirm"
-      }, 
+        "intent": "affirm",
+        "text": "yes sure"
+      },
       {
-        "text": "absolutely", 
-        "intent": "affirm"
-      }, 
+        "intent": "affirm",
+        "text": "absolutely"
+      },
       {
-        "text": "for sure", 
-        "intent": "affirm"
-      }, 
+        "intent": "affirm",
+        "text": "for sure"
+      },
       {
-        "text": "yes yes yes", 
-        "intent": "affirm"
-      }, 
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
       {
-        "text": "definitely", 
-        "intent": "affirm"
-      }, 
+        "intent": "affirm",
+        "text": "definitely"
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 11, 
-            "end": 16, 
-            "value": "Juste", 
+            "start": 11,
+            "end": 16,
+            "value": "Juste",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "My name is Juste"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 9, 
-            "value": "Josh", 
+            "start": 5,
+            "end": 9,
+            "value": "Josh",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I am Josh"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 4, 
-            "end": 8, 
-            "value": "Lucy", 
+            "start": 4,
+            "end": 8,
+            "value": "Lucy",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I'm Lucy"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 15, 
-            "end": 19, 
-            "value": "Greg", 
+            "start": 15,
+            "end": 19,
+            "value": "Greg",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "People call me Greg"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 10, 
-            "value": "David", 
+            "start": 5,
+            "end": 10,
+            "value": "David",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "It's David"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 23, 
-            "end": 26, 
-            "value": "Amy", 
+            "start": 23,
+            "end": 26,
+            "value": "Amy",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Usually people call me Amy"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 11, 
-            "end": 15, 
-            "value": "John", 
+            "start": 11,
+            "end": 15,
+            "value": "John",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "My name is John"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 16, 
-            "end": 19, 
-            "value": "Sam", 
+            "start": 16,
+            "end": 19,
+            "value": "Sam",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "You can call me Sam"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 15, 
-            "end": 20, 
-            "value": "Linda", 
+            "start": 15,
+            "end": 20,
+            "value": "Linda",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Please call me Linda"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 13, 
-            "end": 16, 
-            "value": "Tom", 
+            "start": 13,
+            "end": 16,
+            "value": "Tom",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Name name is Tom"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 12, 
-            "value": "Richard", 
+            "start": 5,
+            "end": 12,
+            "value": "Richard",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I am Richard"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 4, 
-            "end": 9, 
-            "value": "Tracy", 
+            "start": 4,
+            "end": 9,
+            "value": "Tracy",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I'm Tracy"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 8, 
-            "end": 13, 
-            "value": "Sally", 
+            "start": 8,
+            "end": 13,
+            "value": "Sally",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Call me Sally"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 12, 
-            "value": "Philipp", 
+            "start": 5,
+            "end": 12,
+            "value": "Philipp",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I am Philipp"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 12, 
-            "value": "Charlie", 
+            "start": 5,
+            "end": 12,
+            "value": "Charlie",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I am Charlie"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 12, 
-            "value": "Charlie", 
+            "start": 5,
+            "end": 12,
+            "value": "Charlie",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I am Charlie"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 8, 
-            "value": "Ben", 
+            "start": 5,
+            "end": 8,
+            "value": "Ben",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I am Ben"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 8, 
-            "end": 13, 
-            "value": "Susan", 
+            "start": 8,
+            "end": 13,
+            "value": "Susan",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Call me Susan"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 4, 
-            "value": "Lucy", 
+            "start": 0,
+            "end": 4,
+            "value": "Lucy",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Lucy"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 5, 
-            "value": "Peter", 
+            "start": 0,
+            "end": 5,
+            "value": "Peter",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Peter"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 4, 
-            "value": "Mark", 
+            "start": 0,
+            "end": 4,
+            "value": "Mark",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Mark"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 6, 
-            "value": "Joseph", 
+            "start": 0,
+            "end": 6,
+            "value": "Joseph",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Joseph"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 3, 
-            "value": "Tan", 
+            "start": 0,
+            "end": 3,
+            "value": "Tan",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Tan"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 4, 
-            "value": "Pete", 
+            "start": 0,
+            "end": 4,
+            "value": "Pete",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Pete"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 4, 
-            "value": "Elon", 
+            "start": 0,
+            "end": 4,
+            "value": "Elon",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Elon"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 5, 
-            "value": "Penny", 
+            "start": 0,
+            "end": 5,
+            "value": "Penny",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Penny"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 8, 
-            "end": 14, 
-            "value": "Andrew", 
+            "start": 8,
+            "end": 14,
+            "value": "Andrew",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "name is Andrew"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 2, 
-            "end": 6, 
-            "value": "Lora", 
+            "start": 2,
+            "end": 6,
+            "value": "Lora",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I Lora"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 4, 
-            "value": "Stan", 
+            "start": 0,
+            "end": 4,
+            "value": "Stan",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Stan is my name"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 5, 
-            "value": "Susan", 
+            "start": 0,
+            "end": 5,
+            "value": "Susan",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Susan is the name"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 4, 
-            "value": "Ross", 
+            "start": 0,
+            "end": 4,
+            "value": "Ross",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Ross is my first name"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 0, 
-            "end": 4, 
-            "value": "Bing", 
+            "start": 0,
+            "end": 4,
+            "value": "Bing",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Bing is my last name"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 15, 
-            "end": 23, 
-            "value": "Angelina", 
+            "start": 15,
+            "end": 23,
+            "value": "Angelina",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Few call me as Angelina"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 13, 
-            "end": 18, 
-            "value": "Julia", 
+            "start": 13,
+            "end": 18,
+            "value": "Julia",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Some call me Julia"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 18, 
-            "end": 23, 
-            "value": "Laura", 
+            "start": 18,
+            "end": 23,
+            "value": "Laura",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Everyone calls me Laura"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 11, 
-            "value": "Ganesh", 
+            "start": 5,
+            "end": 11,
+            "value": "Ganesh",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I am Ganesh"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 11, 
-            "end": 15, 
-            "value": "Mike", 
+            "start": 11,
+            "end": 15,
+            "value": "Mike",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "My name is Mike"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 13, 
-            "end": 19, 
-            "value": "Monika", 
+            "start": 13,
+            "end": 19,
+            "value": "Monika",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "just call me Monika"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 9, 
-            "end": 12, 
-            "value": "Dan", 
+            "start": 9,
+            "end": 12,
+            "value": "Dan",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Few call Dan"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 23, 
-            "end": 28, 
-            "value": "Suraj", 
+            "start": 23,
+            "end": 28,
+            "value": "Suraj",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "You can always call me Suraj"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 18, 
-            "end": 24, 
-            "value": "Andrew", 
+            "start": 18,
+            "end": 24,
+            "value": "Andrew",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Some will call me Andrew"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 11, 
-            "end": 15, 
-            "value": "Ajay", 
+            "start": 11,
+            "end": 15,
+            "value": "Ajay",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "My name is Ajay"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 7, 
-            "end": 11, 
-            "value": "Ding", 
+            "start": 7,
+            "end": 11,
+            "value": "Ding",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I call Ding"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 4, 
-            "end": 10, 
-            "value": "Partia", 
+            "start": 4,
+            "end": 10,
+            "value": "Partia",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "I'm Partia"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 15, 
-            "end": 18, 
-            "value": "Leo", 
+            "start": 15,
+            "end": 18,
+            "value": "Leo",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "Please call me Leo"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 8, 
-            "end": 12, 
-            "value": "Pari", 
+            "start": 8,
+            "end": 12,
+            "value": "Pari",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "name is Pari"
-      }, 
+      },
       {
+        "intent": "name",
         "entities": [
           {
-            "start": 5, 
-            "end": 11, 
-            "value": "Sanjay", 
+            "start": 5,
+            "end": 11,
+            "value": "Sanjay",
             "entity": "name"
           }
-        ], 
-        "intent": "name", 
+        ],
         "text": "name Sanjay"
-      }, 
+      },
       {
-        "text": "Can you tell me a joke?", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "Can you tell me a joke?"
+      },
       {
-        "text": "I would like to hear a joke", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "I would like to hear a joke"
+      },
       {
-        "text": "Tell me a joke", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "Tell me a joke"
+      },
       {
-        "text": "A joke please", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "A joke please"
+      },
       {
-        "text": "Tell me a joke please", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "Tell me a joke please"
+      },
       {
-        "text": "I would like to hear a joke", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "I would like to hear a joke"
+      },
       {
-        "text": "I would loke to hear a joke, please", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "I would loke to hear a joke, please"
+      },
       {
-        "text": "Can you tell jokes?", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "Can you tell jokes?"
+      },
       {
-        "text": "Please tell me a joke", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "Please tell me a joke"
+      },
       {
-        "text": "I need to hear a joke", 
-        "intent": "joke"
-      }, 
+        "intent": "joke",
+        "text": "I need to hear a joke"
+      },
       {
-        "text": "i'm looking for a place to eat", 
-        "intent": "restaurant_search"
-      }, 
-      {
-        "text": "I want to grab lunch", 
-        "intent": "restaurant_search"
-      }, 
-      {
-        "text": "I am searching for a dinner spot", 
-        "intent": "restaurant_search"
-      }, 
-      {
+        "intent": "restaurant_search",
         "entities": [
           {
-            "start": 31, 
-            "end": 36, 
-            "value": "north", 
-            "entity": "location"
+            "start": 24,
+            "end": 33,
+            "value": "bangalore",
+            "entity": "City"
           }
-        ], 
-        "intent": "restaurant_search", 
-        "text": "i'm looking for a place in the north of town"
-      }, 
+        ],
+        "text": "tell me a restaurant in bangalore"
+      },
       {
+        "intent": "restaurant_search",
         "entities": [
           {
-            "start": 8, 
-            "end": 15, 
-            "value": "chinese", 
-            "entity": "cuisine"
+            "start": 28,
+            "end": 37,
+            "value": "bangalore",
+            "entity": "City"
           }
-        ], 
-        "intent": "restaurant_search", 
-        "text": "show me chinese restaurants"
-      }, 
+        ],
+        "text": "where i can go for diner in bangalore"
+      },
       {
+        "intent": "restaurant_search",
         "entities": [
           {
-            "start": 10, 
-            "end": 17, 
-            "value": "mexican", 
-            "entity": "cuisine"
-          }, 
+            "start": 13,
+            "end": 19,
+            "value": "indian",
+            "entity": "Cuisines"
+          },
           {
-            "start": 31, 
-            "end": 37, 
-            "value": "centre", 
-            "entity": "location"
+            "start": 23,
+            "end": 32,
+            "value": "bangalore",
+            "entity": "City"
           }
-        ], 
-        "intent": "restaurant_search", 
-        "text": "show me a mexican place in the centre"
-      }, 
+        ],
+        "text": "wants to eat indian in bangalore"
+      },
       {
+        "intent": "restaurant_search",
         "entities": [
           {
-            "start": 20, 
-            "end": 26, 
-            "value": "indian", 
-            "entity": "cuisine"
+            "start": 16,
+            "end": 22,
+            "value": "indian",
+            "entity": "Cuisines"
           }
-        ], 
-        "intent": "restaurant_search", 
-        "text": "i am looking for an indian spot"
-      }, 
+        ],
+        "text": "where i can try indian"
+      },
       {
-        "text": "search for restaurants", 
-        "intent": "restaurant_search"
-      }, 
-      {
+        "intent": "order",
         "entities": [
           {
-            "start": 16, 
-            "end": 20, 
-            "value": "west", 
-            "entity": "location"
-          }
-        ], 
-        "intent": "restaurant_search", 
-        "text": "anywhere in the west"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 14, 
-            "end": 19, 
-            "value": "18328", 
-            "entity": "location"
-          }
-        ], 
-        "intent": "restaurant_search", 
-        "text": "anywhere near 18328"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 17, 
-            "end": 29, 
-            "value": "asian fusion", 
-            "entity": "cuisine"
-          }
-        ], 
-        "intent": "restaurant_search", 
-        "text": "I am looking for asian fusion food"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 29, 
-            "end": 34, 
-            "value": "29432", 
-            "entity": "location"
-          }
-        ], 
-        "intent": "restaurant_search", 
-        "text": "I am looking a restaurant in 29432"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 11, 
-            "end": 15, 
-            "value": "order", 
+            "start": 11,
+            "end": 15,
+            "value": "order",
             "entity": "table"
-          }, 
+          },
           {
-            "start": 19, 
-            "end": 29, 
-            "value": "transaction_time", 
+            "start": 19,
+            "end": 29,
+            "value": "transaction_time",
             "entity": "attribute"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "what is my sale in last month"
-      }, 
+      },
       {
+        "intent": "order",
         "entities": [
           {
-            "start": 11, 
-            "end": 21, 
-            "value": "transaction_time", 
+            "start": 11,
+            "end": 21,
+            "value": "transaction_time",
             "entity": "attribute"
-          }, 
+          },
           {
-            "start": 22, 
-            "end": 26, 
-            "value": "order", 
+            "start": 22,
+            "end": 26,
+            "value": "order",
             "entity": "table"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "what is my last month sale"
-      }, 
+      },
       {
+        "intent": "order",
         "entities": [
           {
-            "start": 11, 
-            "end": 24, 
-            "value": "transaction_time", 
+            "start": 11,
+            "end": 24,
+            "value": "transaction_time",
             "entity": "attribute"
-          }, 
+          },
           {
-            "start": 25, 
-            "end": 29, 
-            "value": "order", 
+            "start": 25,
+            "end": 29,
+            "value": "order",
             "entity": "table"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "what is my current month sale"
-      }, 
+      },
       {
+        "intent": "order",
         "entities": [
           {
-            "start": 0, 
-            "end": 12, 
-            "value": "transaction_time", 
+            "start": 0,
+            "end": 12,
+            "value": "transaction_time",
             "entity": "attribute"
-          }, 
+          },
           {
-            "start": 13, 
-            "end": 17, 
-            "value": "order", 
+            "start": 13,
+            "end": 17,
+            "value": "order",
             "entity": "table"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "current week sale"
-      }, 
+      },
       {
+        "intent": "order",
         "entities": [
           {
-            "start": 3, 
-            "end": 16, 
-            "value": "transaction_time", 
+            "start": 3,
+            "end": 16,
+            "value": "transaction_time",
             "entity": "attribute"
-          }, 
+          },
           {
-            "start": 17, 
-            "end": 21, 
-            "value": "order", 
+            "start": 17,
+            "end": 21,
+            "value": "order",
             "entity": "table"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "my current month sale"
-      }, 
+      },
       {
+        "intent": "order",
         "entities": [
           {
-            "start": 8, 
-            "end": 13, 
-            "value": "order", 
+            "start": 8,
+            "end": 13,
+            "value": "order",
             "entity": "table"
-          }, 
+          },
           {
-            "start": 17, 
-            "end": 30, 
-            "value": "transaction_time", 
+            "start": 17,
+            "end": 30,
+            "value": "transaction_time",
             "entity": "attribute"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "What is sales in last one week"
-      }, 
+      },
       {
+        "intent": "order",
         "entities": [
           {
-            "start": 8, 
-            "end": 13, 
-            "value": "order", 
+            "start": 8,
+            "end": 13,
+            "value": "order",
             "entity": "table"
-          }, 
+          },
           {
-            "start": 17, 
-            "end": 29, 
-            "value": "transaction_time", 
+            "start": 17,
+            "end": 29,
+            "value": "transaction_time",
             "entity": "attribute"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "What is sales in last one day"
-      }, 
+      },
       {
+        "intent": "order",
         "entities": [
           {
-            "start": 8, 
-            "end": 13, 
-            "value": "order", 
+            "start": 8,
+            "end": 13,
+            "value": "order",
             "entity": "table"
-          }, 
+          },
           {
-            "start": 17, 
-            "end": 31, 
-            "value": "transaction_time", 
+            "start": 17,
+            "end": 31,
+            "value": "transaction_time",
             "entity": "attribute"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "What is sales in last one month"
-      }, 
+      },
       {
+        "intent": "order",
         "entities": [
           {
-            "start": 11, 
-            "end": 25, 
-            "value": "transaction_time", 
+            "start": 11,
+            "end": 25,
+            "value": "transaction_time",
             "entity": "attribute"
-          }, 
+          },
           {
-            "start": 26, 
-            "end": 31, 
-            "value": "order", 
+            "start": 26,
+            "end": 31,
+            "value": "order",
             "entity": "table"
           }
-        ], 
-        "intent": "order", 
+        ],
         "text": "what is my previous month sales"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 9, 
-            "end": 12, 
-            "value": "rank_top", 
+            "start": 9,
+            "end": 12,
+            "value": "rank_top",
             "entity": "select_function"
-          }, 
+          },
           {
-            "start": 24, 
-            "end": 32, 
-            "value": "order_detail.product_id", 
+            "start": 24,
+            "end": 32,
+            "value": "order_detail.product_id",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "What are top performing products"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 5, 
-            "end": 13, 
-            "value": "order_detail", 
+            "start": 5,
+            "end": 13,
+            "value": "order_detail",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "What products are selling slow"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 9, 
-            "end": 12, 
-            "value": "rank_top", 
+            "start": 9,
+            "end": 12,
+            "value": "rank_top",
             "entity": "select_function"
-          }, 
+          },
           {
-            "start": 24, 
-            "end": 31, 
-            "value": "order_detail", 
+            "start": 24,
+            "end": 31,
+            "value": "order_detail",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "What are top performing product by stores"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 13, 
-            "end": 20, 
-            "value": "order_detail", 
+            "start": 13,
+            "end": 20,
+            "value": "order_detail",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "most selling product"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 21, 
-            "end": 29, 
-            "value": "order_detail", 
+            "start": 21,
+            "end": 29,
+            "value": "order_detail",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "what are newly added products"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 6, 
-            "end": 13, 
-            "value": "order_detail", 
+            "start": 6,
+            "end": 13,
+            "value": "order_detail",
             "entity": "table"
-          }, 
+          },
           {
-            "start": 18, 
-            "end": 22, 
-            "value": "rank_top", 
+            "start": 18,
+            "end": 22,
+            "value": "rank_top",
             "entity": "select_function"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "which product are most sold"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 15, 
-            "end": 22, 
-            "value": "order_detail", 
+            "start": 15,
+            "end": 22,
+            "value": "order_detail",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "most demanding product"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 0, 
-            "end": 8, 
-            "value": "order_detail", 
+            "start": 0,
+            "end": 8,
+            "value": "order_detail",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "products sold most"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 8, 
-            "end": 12, 
-            "value": "rank_top", 
+            "start": 8,
+            "end": 12,
+            "value": "rank_top",
             "entity": "select_function"
-          }, 
+          },
           {
-            "start": 18, 
-            "end": 26, 
-            "value": "order_detail", 
+            "start": 18,
+            "end": 26,
+            "value": "order_detail",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "tell me most sold products"
-      }, 
+      },
       {
+        "intent": "order_details",
         "entities": [
           {
-            "start": 13, 
-            "end": 21, 
-            "value": "order_detail", 
+            "start": 13,
+            "end": 21,
+            "value": "order_detail",
             "entity": "table"
           }
-        ], 
-        "intent": "order_details", 
+        ],
         "text": "what are the products sold this week"
-      }, 
+      },
       {
+        "intent": "customer",
         "entities": [
           {
-            "start": 14, 
-            "end": 23, 
-            "value": "customer", 
+            "start": 14,
+            "end": 23,
+            "value": "customer",
             "entity": "table"
-          }, 
+          },
           {
-            "start": 35, 
-            "end": 42, 
-            "value": "name", 
+            "start": 35,
+            "end": 42,
+            "value": "name",
             "entity": "attribute"
           }
-        ], 
-        "intent": "customer", 
+        ],
         "text": "tell me those customers who bought nokia 6"
-      }, 
+      },
       {
-        "text": "who bought something yesterday", 
-        "intent": "customer"
-      }, 
+        "intent": "customer",
+        "text": "who bought something yesterday"
+      },
       {
+        "intent": "customer",
         "entities": [
           {
-            "start": 0, 
-            "end": 9, 
-            "value": "customer", 
+            "start": 0,
+            "end": 9,
+            "value": "customer",
             "entity": "table"
-          }, 
+          },
           {
-            "start": 33, 
-            "end": 38, 
-            "value": "price", 
+            "start": 33,
+            "end": 38,
+            "value": "price",
             "entity": "attribute"
           }
-        ], 
-        "intent": "customer", 
+        ],
         "text": "customers who shop for more than 50000"
-      }, 
+      },
       {
+        "intent": "product",
         "entities": [
           {
-            "start": 0, 
-            "end": 8, 
-            "value": "product", 
+            "start": 0,
+            "end": 8,
+            "value": "product",
             "entity": "table"
           }
-        ], 
-        "intent": "product", 
+        ],
         "text": "products added this month"
-      }, 
+      },
       {
+        "intent": "product",
         "entities": [
           {
-            "start": 0, 
-            "end": 8, 
-            "value": "product", 
+            "start": 0,
+            "end": 8,
+            "value": "product",
             "entity": "table"
           }
-        ], 
-        "intent": "product", 
+        ],
         "text": "products cost more than 50000"
-      }, 
+      },
       {
+        "intent": "product",
         "entities": [
           {
-            "start": 13, 
-            "end": 23, 
-            "value": "category", 
+            "start": 13,
+            "end": 23,
+            "value": "category",
             "entity": "attribute"
-          }, 
+          },
           {
-            "start": 27, 
-            "end": 35, 
-            "value": "product", 
+            "start": 27,
+            "end": 35,
+            "value": "product",
             "entity": "table"
           }
-        ], 
-        "intent": "product", 
+        ],
         "text": "what are the categories of products we have"
-      }, 
+      },
       {
+        "intent": "product",
         "entities": [
           {
-            "start": 6, 
-            "end": 14, 
-            "value": "product", 
+            "start": 6,
+            "end": 14,
+            "value": "product",
             "entity": "table"
           }
-        ], 
-        "intent": "product", 
+        ],
         "text": "total products we have"
-      }, 
+      },
       {
+        "intent": "product",
         "entities": [
           {
-            "start": 9, 
-            "end": 11, 
-            "value": "name", 
+            "start": 9,
+            "end": 11,
+            "value": "name",
             "entity": "attribute"
-          }, 
+          },
           {
-            "start": 12, 
-            "end": 18, 
-            "value": "type", 
+            "start": 12,
+            "end": 18,
+            "value": "type",
             "entity": "attribute"
           }
-        ], 
-        "intent": "product", 
+        ],
         "text": "how many hp laptop are in stock"
-      }, 
+      },
       {
+        "intent": "product",
         "entities": [
           {
-            "start": 9, 
-            "end": 20, 
-            "value": "category", 
+            "start": 9,
+            "end": 20,
+            "value": "category",
             "entity": "attribute"
           }
-        ], 
-        "intent": "product", 
+        ],
         "text": "how many electronics gadgets we have"
-      }, 
+      },
       {
+        "intent": "product",
         "entities": [
           {
-            "start": 9, 
-            "end": 16, 
-            "value": "type", 
+            "start": 9,
+            "end": 16,
+            "value": "type",
             "entity": "attribute"
           }
-        ], 
-        "intent": "product", 
+        ],
         "text": "types of mobiles we have"
-      }, 
+      },
       {
+        "intent": "product",
         "entities": [
           {
-            "start": 25, 
-            "end": 30, 
-            "value": "type", 
+            "start": 25,
+            "end": 30,
+            "value": "type",
             "entity": "attribute"
           }
-        ], 
-        "intent": "product", 
+        ],
         "text": "what are the total no of lappy we have"
       }
-    ], 
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": " table",
+        "elements": "./data/table/table.txt"
+      },
+      {
+        "name": " attribute",
+        "elements": "./data/table/attribute.txt"
+      },
+      {
+        "name": " select_function",
+        "elements": "./data/table/function.txt"
+      }
+    ],
     "entity_synonyms": [
       {
+        "value": "order",
         "synonyms": [
-          "customers"
-        ], 
-        "value": "customer"
-      }, 
+          "sale",
+          "sales"
+        ]
+      },
       {
+        "value": "transaction_time",
         "synonyms": [
-          "electronics", 
-          "categories"
-        ], 
-        "value": "category"
-      }, 
+          "last month",
+          "current month",
+          "current week",
+          "last one week",
+          "last one day",
+          "last one month",
+          "previous month"
+        ]
+      },
       {
+        "value": "rank_top",
+        "synonyms": [
+          "top",
+          "most"
+        ]
+      },
+      {
+        "value": "product",
         "synonyms": [
           "products"
-        ], 
-        "value": "product"
-      }, 
+        ]
+      },
       {
-        "synonyms": [
-          "hp", 
-          "nokia 6"
-        ], 
-        "value": "name"
-      }, 
-      {
-        "synonyms": [
-          "top", 
-          "most"
-        ], 
-        "value": "rank_top"
-      }, 
-      {
-        "synonyms": [
-          "50000"
-        ], 
-        "value": "price"
-      }, 
-      {
-        "synonyms": [
-          "last month", 
-          "last one week", 
-          "last one month", 
-          "previous month", 
-          "current week", 
-          "current month", 
-          "last one day"
-        ], 
-        "value": "transaction_time"
-      }, 
-      {
+        "value": "order_detail",
         "synonyms": [
           "product"
-        ], 
-        "value": "order_detail"
-      }, 
+        ]
+      },
       {
+        "value": "customer",
         "synonyms": [
-          "laptop", 
-          "lappy", 
-          "mobiles"
-        ], 
-        "value": "type"
-      }, 
+          "customers"
+        ]
+      },
       {
+        "value": "name",
         "synonyms": [
-          "sales", 
-          "sale"
-        ], 
-        "value": "order"
+          "nokia 6",
+          "hp"
+        ]
+      },
+      {
+        "value": "price",
+        "synonyms": [
+          "50000"
+        ]
+      },
+      {
+        "value": "category",
+        "synonyms": [
+          "categories",
+          "electronics"
+        ]
+      },
+      {
+        "value": "type",
+        "synonyms": [
+          "laptop",
+          "mobiles",
+          "lappy"
+        ]
       }
-    ], 
-    "regex_features": []
+    ]
   }
 }

@@ -7,6 +7,7 @@ actions:
 - utter_goodbye
 - action_joke
 - action_sale
+- action_check_restaurants
 config:
   store_entities_as_slots: true
 entities:
@@ -14,6 +15,14 @@ entities:
 - table
 - attribute
 - select_function
+- location
+- Cuisines
+- Restaurant_Name
+- Country
+- City
+- Average_Cost_for_two
+- Aggregate_rating
+- Votes
 forms: []
 intents:
 - greet:
@@ -30,7 +39,17 @@ intents:
     use_entities: true
 - sale:
     use_entities: true
+- restaurant_search:
+    use_entities: true
 slots:
+  Cuisines:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   name:
     auto_fill: true
     initial_value: null

@@ -7,6 +7,8 @@ from __future__ import unicode_literals
 from datetime import datetime
 import logging
 import requests
+from rasa_core.interpreter import RasaNLUInterpreter
+from rasa_nlu.model import Trainer, Metadata, Interpreter
 import json
 from rasa_core_sdk import Action
 from db_base import session
@@ -20,27 +22,49 @@ API_KEY = "iD4gCvR911UmhfheUBLKF5lieGk2"
 class ActionJoke(Action):
     def name(self):
         # define the name of the action which can then be included in training stories
-        return "action_joke"
+        return "action_check_restaurants"
 
     def run(self, dispatcher, tracker, domain):
-        # ##########   IPL ############################################
-        res = requests.get(API_URL + "matches" + "?apikey=" + API_KEY)
-        if res.status_code == 200:
-            data = res.json()["matches"]
-            recent_match = data[0]
-            upcoming_match = data[1]
-            upcoming_match["date"] = datetime.strptime(upcoming_match["date"], "%Y-%m-%dT%H:%M:%S.%fZ")
-            next_date = upcoming_match["date"].strftime("%d %B %Y")
+        dispatcher.utter_message("looking for restaurants")
 
-            out_message = "Here some IPL quick info:\n1.The match between {} and {} was recently held and {} won.".format(
-                recent_match["team-1"], recent_match["team-2"], recent_match["matchStarted"])
+        input = tracker.latest_message["text"]
 
-            dispatcher.utter_message(out_message)
+        interpreter = RasaNLUInterpreter('./models/nlu/default/chat')
+        data = interpreter.parse(input)
+        print(data)
 
-            out_message = "2.The next match is {} vs {} on {}".format(upcoming_match["team-1"],
-                                                                      upcoming_match["team-2"], next_date)
+        params = {}
+        for ent in data["entities"]:
+            params[ent["entity"]] = ent["value"]
+        print(params)
 
-            dispatcher.utter_message(out_message)
+        query = "select Restaurant_Name FROM restaurant"
+        if len(params) != 0:
+            filters = ["{}='{}'".format("lower(" + k + ")", v) for k, v in params.items()]
+            print(filters)
+            conditions = " and ".join(filters)
+            print(conditions)
+            query = " WHERE ".join([query, conditions])
+        print(query)
+        a = session.execute(query)
+        result_set = a.fetchall()
+        print(result_set)
+        res = []
+        for data in result_set:
+            res = data[0]
+        print(res)
+        responses = [
+            "I'm sorry :( I couldn't find anything like that"
+            ,
+            "what about {}?"
+            ,
+            "{} is one option, but I know others too :)"
+        ]
+        print(len(result_set))
+        index = min(len(result_set), len(responses) - 1)
+        print(responses[index].format(res))
+        dispatcher.utter_message(responses[index].format(res))
+
 
         return []
 

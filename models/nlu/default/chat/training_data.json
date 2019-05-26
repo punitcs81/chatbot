@@ -928,6 +928,48 @@
         "text": "I am looking a restaurant in 29432"
       },
       {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "bangalore",
+            "entity": "City"
+          }
+        ],
+        "text": "tell me a restaurant in bangalore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "bangalore",
+            "entity": "City"
+          }
+        ],
+        "text": "where i can go for diner in bangalore"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "indian",
+            "entity": "Cuisines"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "bangalore",
+            "entity": "City"
+          }
+        ],
+        "text": "wants to eat indian in bangalore"
+      },
+      {
         "intent": "order",
         "entities": [
           {

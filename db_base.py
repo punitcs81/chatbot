@@ -13,5 +13,6 @@ try:
     Session = sessionmaker(bind=engine)
     session = scoped_session(Session)
 
+
 except Exception as ex:
-    raise Exception("Database connection Expections")
+    raise Exception("Database connection Expections", ex)

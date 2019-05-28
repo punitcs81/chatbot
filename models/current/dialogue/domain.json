@@ -31,6 +31,7 @@
     "prev_action_revert_fallback_events",
     "prev_action_default_ask_affirmation",
     "prev_action_default_ask_rephrase",
+    "prev_action_back",
     "prev_utter_name",
     "prev_utter_thanks",
     "prev_utter_greet",

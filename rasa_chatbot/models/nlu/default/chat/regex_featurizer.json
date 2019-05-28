@@ -1,0 +1,14 @@
+[
+    {
+        "name": " table",
+        "pattern": "(?i)(\\bcustomer\\b|\\border\\b|\\border_detail\\b|\\bproduct\\b)"
+    },
+    {
+        "name": " attribute",
+        "pattern": "(?i)(\\bamount\\b|\\bconsumer_id\\b|\\btransaction_time\\b|\\bcategory\\b|\\btype\\b|\\bname\\b|\\bproduct_id\\b)"
+    },
+    {
+        "name": " select_function",
+        "pattern": "(?i)(\\brank_top\\b|\\bbest\\b|\\bmost\\b)"
+    }
+]

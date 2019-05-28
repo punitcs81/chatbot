@@ -1,0 +1,7 @@
+amount
+consumer_id
+transaction_time
+category
+type
+name
+product_id
